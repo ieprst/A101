@@ -13,6 +13,30 @@
 | Battery                 | 2450 mh                           |
 | Dimensions              | 71.2x143.5x9.5 mm                 |
 | Display                 | 1280x720 pixels, 5(~320 DPI)      |
+---------------------------------------------------------------
+
+
+cd ~/crDroid_MTK
+. build/envsetup.sh && brunch A101
+
+
+
+---------------------------------------
+
+
+cd ~/crDroid_MTK/device/uhans/A101/patches
+. check-patches.sh
+
+ 
+cd ~/crDroid_MTK/device/uhans/A101/patches
+. apply-patches.sh
+
+
+
+cd ~/crDroid_MTK/device/uhans/A101
+. extract-files.sh unzip
+
+======================================
 
 
 
